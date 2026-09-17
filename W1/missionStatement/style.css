@@ -1,0 +1,31 @@
+h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+h2 {
+    color: #3469A9;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+li {
+    list-style-type: decimal;
+}
+#content {
+    max-width: 60%;
+    border: 1px solid darkgray;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+
+hr {
+    width: 80%;
+    margin-top: 0;
+}
+img {
+    display: block;
+    width: 15%;
+    padding: 50px auto;
+    margin-top: 50px;
+}
