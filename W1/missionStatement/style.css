@@ -7,6 +7,7 @@ h2 {
     color: #3469A9;
     margin-bottom: 0;
     text-transform: uppercase;
+    /*slightly smaller font*/
 }
 li {
     list-style-type: decimal;
@@ -26,6 +27,22 @@ hr {
 img {
     display: block;
     width: 15%;
+    margin: 0 auto;
     padding: 50px auto;
     margin-top: 50px;
+}
+#mainText {
+    max-width: 80%;
+    margin: 0 auto;
+}
+p, li {
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+#italic {
+    font-style: italic;
+}
+li {
+    padding-bottom: 20px;
 }
