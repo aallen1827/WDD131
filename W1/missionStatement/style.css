@@ -50,3 +50,7 @@ li {
 #list {
     padding-left: 40px;
 }
+.darkMode {
+    background-color: #333333;
+    color: white;
+}
