@@ -1,10 +1,10 @@
 let menuButton = document.querySelector(".menu-btn");
-let nav = document.querySelector("nav");
 
 menuButton.addEventListener("click", function (e) {
-    if (nav.style.display === "") {
-        nav.style.display = "flex";
-    } else {
-        nav.style.display = "";
-    }
+    let nav = document.querySelector("nav");
+    menuButton.classList.toggle("change");
+    nav.classList.toggle("stuff");
+    document.querySelectorAll("nav a").forEach(element => {
+        element.classList.toggle('chang');
+    });   
 });

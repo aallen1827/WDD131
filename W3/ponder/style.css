@@ -15,6 +15,9 @@ footer {
 h1 {
     text-align: center;
 }
+nav {
+    display: none;
+}
 section {
   padding: 20px;
   background-color: white;
@@ -24,7 +27,7 @@ section {
 nav a {
     padding: 20px;
     color: black;
-    display: none;
+
 }
 nav a:hover {
     text-decoration: none;
@@ -73,4 +76,27 @@ footer {
         max-width: 25%;
     }
 }
-          
+
+
+.change .bar1 {
+  transform: translate(0, 7.5px) rotate(-45deg);
+}
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+.stuff{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.chang{
+    border-top: solid black 1px;
+    text-decoration: none;
+}
+
+.menu-btn div {
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
