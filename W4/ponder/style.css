@@ -21,6 +21,7 @@ figure img {
 
 dialog img {
     width: 90%;
+    height: auto;
     display: block;
     margin: 20vh auto;
 }
